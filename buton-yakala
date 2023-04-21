@@ -1,0 +1,47 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Kaçan Tavuk</title>
+
+
+    <style>
+        #kac {
+            position:relative;
+            border:none;
+           
+        }
+
+    
+    </style>
+
+
+</head>
+<body>
+
+    
+        <button name="kac" id="kac" ><img src="C:\Users\yagmu\OneDrive\Masaüstü\w1\images\jerry2.png"width="100px" height="100px"></button>
+    
+
+     
+    <script>
+
+        var kac=document.getElementById("kac");
+    
+        kac.onmouseover= function tikla() {
+            var x= parseInt (Math.floor((Math.random()*500)));
+            var y=parseInt(Math.floor((Math.random()*500)));
+
+            kac.style.left=x +"px";
+            kac.style.right=x +"px";
+            kac.style.top =y+"px";
+            kac.style.buttom=y +"px";         
+       }
+       
+    
+    
+    
+    </script>
+
+
+</body>
+</html>
